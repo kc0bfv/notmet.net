@@ -13,18 +13,18 @@ weight: 3
 
 <h3>Counter-Strike: GO Maps</h3>
 <ul>
-    <li><a href="downloads/de_museum_source_beta3.7z">Version 3 of P's de_museum port - 30 Jun 2013</a>
-    <li><a href="downloads/classicMaps10Feb2013.7z">Ports of classic maps - 10 Feb 2013 Edition</a>
+    <li><a href="https://static.notmet.net/de_museum_source_beta3.7z">Version 3 of P's de_museum port - 30 Jun 2013</a>
+    <li><a href="https://static.notmet.net/classicMaps10Feb2013.7z">Ports of classic maps - 10 Feb 2013 Edition</a>
 </ul>
 <h3>Counter-Strike: Source Maps</h3>
 <ul>
-    <li><a href="downloads/de_vegas.zip">de_vegas.zip</a>
-    <li><a href="downloads/othermaps.zip">othermaps.zip</a>
-    <li><a href="downloads/20May2012Maps.zip">20May2012Maps.zip</a>
+    <li><a href="https://static.notmet.net/de_vegas.zip">de_vegas.zip</a>
+    <li><a href="https://static.notmet.net/othermaps.zip">othermaps.zip</a>
+    <li><a href="https://static.notmet.net/20May2012Maps.zip">20May2012Maps.zip</a>
 </ul>
 <h3>Counter-Strike 1.6 Maps</h3>
 <ul>
-    <li><a href="downloads/cs_dune.zip">cs_dune.zip</a>
-    <li><a href="downloads/as_tundra.zip">as_tundra.zip</a>
-    <li><a href="downloads/assaultIceworldPoolpartyScoutzKnivez.zip">Assault, Iceworld, Poolparty and ScoutzKnives</a>
+    <li><a href="https://static.notmet.net/cs_dune.zip">cs_dune.zip</a>
+    <li><a href="https://static.notmet.net/as_tundra.zip">as_tundra.zip</a>
+    <li><a href="https://static.notmet.net/assaultIceworldPoolpartyScoutzKnivez.zip">Assault, Iceworld, Poolparty and ScoutzKnives</a>
 </ul>

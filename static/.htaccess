@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+	RewriteBase /
+	RewriteCond %{REQUEST_URI} ^/(stats|failed_auth\.html).*$ [NC]
+	RewriteRule . - [L]
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresDefault "now plus 1 years"
+</IfModule>
+
+<IfModule mod_speling.c>
+	CheckSpelling on
+</IfModule>
+
+Options -Indexes
+ErrorDocument 404 /404.html
+Redirect 301 /downloads https://static.notmet.net/
