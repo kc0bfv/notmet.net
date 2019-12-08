@@ -1,4 +1,4 @@
-baseURL = "http://notmet.net/"
+baseURL = "https://notmet.net/"
 languageCode = "en-us"
 title = "notmet.net"
 theme = "ticky_tacky_dark"
@@ -8,6 +8,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
     favicon = "favicon.ico"
     webmasterEmail = "kc0bfv@notmet.net"
+    description = "The homepage for kc0bfv@notmet.net and his wacky projects."
+    author = "kc0bfv@notmet.net"
     headerimages = ["/img/header01.jpg", "/img/header02.jpg", "/img/header03.jpg", "/img/header04.jpg"]
     #msvalidate = ""
     #googlesiteverification = ""
