@@ -5,14 +5,16 @@ buttonimage: "/img/eobutton.jpg"
 sideimages: ["/img/exploreoutdoors01.jpg", "/img/exploreoutdoors02.jpg", "/img/exploreoutdoors03.jpg", "/img/exploreoutdoors04.jpg"]
 sideimagealt: "Explore Outdoors Screenshot"
 draft: false
-weight: 1
+weight: 6
 ---
 
-Explore Outdoors is a free layer for the Android and iPhone augmented reality app "Layar."  It displays the names of mountains, lakes, parks, streams and a whole bunch of other good stuff.  Explore Outdoors is helpful for those times when you're sitting on top of a mountain and you wonder about the names of other nearby mountains.  There's an example screenshot of it to the right, but it's a pretty terrible shot right now.  I'll get a better one soon (if you've got one, send it to me and I'll use it).
+Explore Outdoors was a free layer for the Android and iPhone augmented reality app "Layar."  It displayed the names of mountains, lakes, parks, streams and a whole bunch of other good stuff.  Explore Outdoors was helpful for those times when you're sitting on top of a mountain and you wonder about the names of other nearby mountains.  There's an example screenshot of it to the right.
 
-The data currently only covers the US, and comes from the <a href="http://geonames.usgs.gov/">USGS Geographical Names Database</a> which is published by the authority which official names these things.  The database is served to users from this website, which is in no way affiliated with the US government.  I also took all the icons and images used in the layer from public domain sources (or sources which I hope are public domain).  My list of image sources is at the bottom of this page.
+Unfortunately, the Layar app was discontinued, and therefore this layer no longer works.  Further, I don't know of any technology that's quite like it that's actively being developed.  Layar would request data from a URL endpoint, then display it in context of where you were.  It had a great selection system for choosing those URL endpoints, and standardized request and data formats.  That's really all that's needed to make this work again...
 
-Some features I'm considering adding are the ability to search for locations by name, and the names of non-US geographical features.  If you're interested in the latter and you know where I might find a database of those names, let me know.
+The data currently covered the US, and comes from the <a href="http://geonames.usgs.gov/">USGS Geographical Names Database</a> which is published by the authority which official names these things.  The database was served to users from this website, which is in no way affiliated with the US government.  I also took all the icons and images used in the layer from public domain sources (or sources which I hope are public domain).  My list of image sources is at the bottom of this page.
+
+I'd like to rebuild this as a standalone app, with a built-in places database, so no data connection is required.
 
 Click, tap or use your phone's QR-code reader to try it out: 
 
