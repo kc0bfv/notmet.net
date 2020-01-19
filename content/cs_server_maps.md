@@ -8,23 +8,22 @@ sideimagealt: "Screenshot from Counter Strike"
 weight: 8
 ---
 
-<p>Unzip these in the appropriate Counter-Strike folder, or in Counter-Strike's maps folder, as necessary.
-<p>The Global Offensive map downloads are compressed with 7-Zip because they were too big otherwise.  You'll need to <a href="http://www.7-zip.org/">download 7-Zip</a> to uncompress them.
+Unzip these in the appropriate Counter-Strike folder, or in Counter-Strike's maps folder, as necessary.
 
-<h3>Counter-Strike: GO Maps</h3>
-<ul>
-    <li><a href="https://static.notmet.net/de_museum_source_beta3.7z">Version 3 of P's de_museum port - 30 Jun 2013</a>
-    <li><a href="https://static.notmet.net/classicMaps10Feb2013.7z">Ports of classic maps - 10 Feb 2013 Edition</a>
-</ul>
-<h3>Counter-Strike: Source Maps</h3>
-<ul>
-    <li><a href="https://static.notmet.net/de_vegas.zip">de_vegas.zip</a>
-    <li><a href="https://static.notmet.net/othermaps.zip">othermaps.zip</a>
-    <li><a href="https://static.notmet.net/20May2012Maps.zip">20May2012Maps.zip</a>
-</ul>
-<h3>Counter-Strike 1.6 Maps</h3>
-<ul>
-    <li><a href="https://static.notmet.net/cs_dune.zip">cs_dune.zip</a>
-    <li><a href="https://static.notmet.net/as_tundra.zip">as_tundra.zip</a>
-    <li><a href="https://static.notmet.net/assaultIceworldPoolpartyScoutzKnivez.zip">Assault, Iceworld, Poolparty and ScoutzKnives</a>
-</ul>
+The Global Offensive map downloads are compressed with 7-Zip because they were too big otherwise.  You'll need to [download 7-zip](http://www.7-zip.org/) to uncompress them.
+
+### Counter-Strike: GO Maps
+
+1. [Version 3 of P's de\_museum port - 30 Jun 2013](https://static.notmet.net/de_museum_source_beta3.7z)
+2. [Ports of classic maps - 10 Feb 2013 Edition](https://static.notmet.net/classicMaps10Feb2013.7z)
+
+### Counter-Strike: Source Maps
+
+1. [de\_vegas.zip](https://static.notmet.net/de_vegas.zip)
+2. [othermaps.zip](https://static.notmet.net/othermaps.zip)
+3. [20May2012Maps.zip](https://static.notmet.net/20May2012Maps.zip)
+
+### Counter-Strike 1.6 Maps
+1. [cs\_dune.zip](https://static.notmet.net/cs_dune.zip)
+2. [as\_tundra.zip](https://static.notmet.net/as_tundra.zip)
+3. [Assault, Iceworld, Poolparty and ScoutzKnives](https://static.notmet.net/assaultIceworldPoolpartyScoutzKnivez.zip)
