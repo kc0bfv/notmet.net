@@ -13,7 +13,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #googlesiteverification = ""
 
 [Author]
-    name = "Karl Sickendick"
+    name = "Karl A Sickendick"
     email = "kc0bfv@notmet.net"
     [Author.Social]
         twitter = "kc0bfv"
