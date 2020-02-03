@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>notmet.net - Sarah&#39;s Webpage</title>
+<meta name="description" content="The homepage for kc0bfv@notmet.net and his wacky projects.">
+<meta name="author" content="Karl Sickendick">
+<link rel="icon" href="/favicon.ico"><meta property="og:title" content="Sarah&#39;s Webpage" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notmet.net/sarahs_webpage/" />
+<meta property="og:image" content="https://notmet.net/img/header01.jpg"/>
+<meta property="article:published_time" content="2020-01-31T17:32:48-07:00" />
+<meta property="article:modified_time" content="2020-01-31T17:32:48-07:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://notmet.net/img/header01.jpg"/>
+
+<meta name="twitter:title" content="Sarah&#39;s Webpage"/>
+<meta name="twitter:description" content=""/>
+
+<meta http-equiv="refresh" content="0;URL='https://lmt.sarahfinley.com/'" />
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+
+
+<meta name="generator" content="Hugo 0.63.2" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/css/myscreen.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/css/myprint.css" type="text/css" media="print">
+<meta name="theme-color" content="black">
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-42117518-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<noscript>
+    <style>
+        
+            #headerimg {
+                background-image: url(https://notmet.net/img/header01.jpg);
+                background-size: cover;
+            }
+        
+        
+    </style>
+</noscript>
+
+<script>
+    function toggleDisplay( elementID ) {
+        elem = document.getElementById(elementID);
+        if( elem.style.display == "none" ) {
+            elem.style.display = "block";
+        } else if( elem.style.display == "block" ) {
+            elem.style.display = "none";
+        }
+    }
+    
+    function randomHeaderImg() {
+        let images = ["https://notmet.net/img/header01.jpg","https://notmet.net/img/header02.jpg","https://notmet.net/img/header03.jpg","https://notmet.net/img/header04.jpg"];
+        let img_ind = Math.ceil(Math.random() * images.length) - 1;
+        let sel_url = images[img_ind]
+        let img = new Image();
+        img.onload = function() {
+            function set_img(old_onload) {
+                let element = document.getElementById("headerimg");
+                element.src = sel_url;
+                if( old_onload ){ old_onload() }
+            }
+            if( document.readyState === "complete" ) { set_img() }
+            else { window.onload = set_img(window.onload) }
+        }
+        img.src = sel_url;
+    }
+    randomHeaderImg();
+    
+    
+</script>
+</head>
+    <body>
+        <div id="full_body">
+            <header id="header" class="top-section"><img id="headerimg" class="veryrounded" src="/img/header_template.png" alt="">
+</header>
+            <div id="content" class="top-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col col-12 col-sm-8 col-lg-9">
+                            <main class="row">
+    <div class="col-12 col-sm-5">
+        
+    </div>
+    <div class="col-12 col-sm-7">
+        
+    </div>
+
+                            </main>
+                        </div>
+                        <nav class="col col-8 offset-2 col-sm-4 offset-sm-0 col-lg-3"><div class="box morerounded">
+    <ul class="navbar">
+            <li><a href="https://notmet.net/">Main</a></li>
+            <li><a href="https://sarahandkarl.sickendick.com/">Wedding &amp; Life Photos</a></li>
+            <li><a href="https://blog.notmet.net/">Blog</a></li>
+            <li><a href="https://notmet.net/pcode_emulation/">PCode Emulation</a></li>
+            <li><a href="https://notmet.net/python_course/">Python Course</a></li>
+            <li><a href="https://notmet.net/ranked_choice_voting/">Ranked Choice Voting</a></li>
+            <li><a href="https://notmet.net/explore_outdoors/">Explore Outdoors</a></li>
+            <li><a href="https://notmet.net/teach_geography/">Teach Geography</a></li>
+            <li><a href="https://notmet.net/cs_server_maps/">CS Server Maps</a></li>
+            <li><a href="https://notmet.net/front_porch/">Front Porch</a></li>
+            <li>Sarah&#39;s Webpage</li>
+    </ul>
+</div>
+</nav>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer" class="top-section">Webmaster: <a href="mailto:kc0bfv@notmet.net">kc0bfv@notmet.net</a>
+</footer></div>
+    </body>
+</html>
