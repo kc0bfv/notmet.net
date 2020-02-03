@@ -7,9 +7,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     favicon = "favicon.ico"
-    webmasterEmail = "kc0bfv@notmet.net"
     description = "The homepage for kc0bfv@notmet.net and his wacky projects."
-    author = "kc0bfv@notmet.net"
-    headerimages = ["/img/header01.jpg", "/img/header02.jpg", "/img/header03.jpg", "/img/header04.jpg"]
+    images = ["/img/header01.jpg", "/img/header02.jpg", "/img/header03.jpg", "/img/header04.jpg"]
     #msvalidate = ""
     #googlesiteverification = ""
+
+[Author]
+    name = "Karl Sickendick"
+    email = "kc0bfv@notmet.net"
+    [Author.Social]
+        twitter = "kc0bfv"
+        facebook = "karl.sickendick"

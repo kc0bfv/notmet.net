@@ -3,8 +3,8 @@ title: "CS Server Maps"
 date: 2019-06-09T18:04:02-04:00
 draft: false
 buttonimage: "/img/hlbutton.jpg"
-sideimages: ["/img/cs_downloads.jpg"]
-sideimagealt: "Screenshot from Counter Strike"
+images: ["/img/cs_downloads.jpg"]
+imagealt: "Screenshot from Counter Strike"
 weight: 8
 ---
 

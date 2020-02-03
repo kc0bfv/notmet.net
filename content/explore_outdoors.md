@@ -2,8 +2,8 @@
 title: "Explore Outdoors"
 date: 2019-06-09T16:25:58-04:00
 buttonimage: "/img/eobutton.jpg"
-sideimages: ["/img/exploreoutdoors01.jpg", "/img/exploreoutdoors02.jpg", "/img/exploreoutdoors03.jpg", "/img/exploreoutdoors04.jpg"]
-sideimagealt: "Explore Outdoors Screenshot"
+images: ["/img/exploreoutdoors01.jpg", "/img/exploreoutdoors02.jpg", "/img/exploreoutdoors03.jpg", "/img/exploreoutdoors04.jpg"]
+imagealt: "Explore Outdoors Screenshot"
 draft: false
 weight: 6
 ---

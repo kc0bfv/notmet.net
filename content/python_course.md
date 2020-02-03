@@ -2,8 +2,8 @@
 title: "Python Course"
 date: 2020-01-04T00:00:00-08:00
 buttonimage: "/img/pycbutton.png"
-sideimages: ["/img/pycside01.png", "/img/pycside02.png"]
-sideimagealt: "Python Course"
+images: ["/img/pycside01.png", "/img/pycside02.png"]
+imagealt: "Python Course"
 draft: false
 weight: 4
 ---

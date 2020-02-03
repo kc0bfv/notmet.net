@@ -2,8 +2,8 @@
 title: "PCode Emulation"
 date: 2019-06-09T16:25:58-04:00
 buttonimage: "/img/ghbutton.jpg"
-sideimages: ["/img/ghside.jpg"]
-sideimagealt: "A screenshot from Ghidra"
+images: ["/img/ghside.jpg"]
+imagealt: "A screenshot from Ghidra"
 draft: false
 weight: 3
 ---

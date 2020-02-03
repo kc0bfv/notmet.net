@@ -3,8 +3,8 @@ title: "Teach Geography"
 date: 2019-06-09T18:04:08-04:00
 draft: false
 buttonimage: "/img/tgbutton.jpg"
-sideimages: ["/img/teachgeography01.jpg"]
-sideimagealt: "Teach Geography Screenshot"
+images: ["/img/teachgeography01.jpg"]
+imagealt: "Teach Geography Screenshot"
 weight: 7
 ---
 
