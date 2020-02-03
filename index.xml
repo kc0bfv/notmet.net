@@ -6,8 +6,8 @@
     <description>Recent content in Main on notmet.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>kc0bfv@notmet.net (Karl Sickendick)</managingEditor>
-    <webMaster>kc0bfv@notmet.net (Karl Sickendick)</webMaster>
+    <managingEditor>kc0bfv@notmet.net (Karl A Sickendick)</managingEditor>
+    <webMaster>kc0bfv@notmet.net (Karl A Sickendick)</webMaster>
     <lastBuildDate>Sun, 09 Jun 2019 16:47:35 -0400</lastBuildDate>
     
 	<atom:link href="https://notmet.net/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <title>Wedding &amp; Life Photos</title>
       <link>https://notmet.net/wedding_and_life/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 -0800</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/wedding_and_life/</guid>
       <description></description>
     </item>
@@ -26,7 +26,7 @@
       <title>Blog</title>
       <link>https://notmet.net/blog/</link>
       <pubDate>Sun, 09 Jun 2019 17:19:24 -0400</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/blog/</guid>
       <description></description>
     </item>
@@ -35,7 +35,7 @@
       <title>PCode Emulation</title>
       <link>https://notmet.net/pcode_emulation/</link>
       <pubDate>Sun, 09 Jun 2019 16:25:58 -0400</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/pcode_emulation/</guid>
       <description>Ghidra is a software reverse engineering tool, and it employs an intermediate language called PCode. I&amp;rsquo;ve written a PCode emulation tool which enables mixed static/dynamic software analysis. It still needs a lot of work, but the talk I gave about it at Saintcon 2019 and the tool are over here at GitHub.</description>
     </item>
@@ -44,7 +44,7 @@
       <title>Python Course</title>
       <link>https://notmet.net/python_course/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 -0800</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/python_course/</guid>
       <description>A few years ago I had the pleasure of teaching a Python Course for programmers - folks who already knew some programming language, and maybe even a little Python. We worked through the syntax quickly, and got on to advanced topics and things they&amp;rsquo;d need in their very specific day jobs. This was a blast for me - I enjoy teaching folks things, and I enjoy Python, so everything about this was fun.</description>
     </item>
@@ -53,7 +53,7 @@
       <title>Ranked Choice Voting</title>
       <link>https://notmet.net/ranked_choice_voting/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 -0800</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/ranked_choice_voting/</guid>
       <description>I became interested in Ranked Choice Voting several years ago when I realized the most common US voting systems were really underwhelming. I see this most clearly in elections that have several candidates, and I hear it most clearly when folks talk about how they cannot vote for the person they&amp;rsquo;re most interested in due to the spoiler effect.
 Researching other voting methods - Ranked Choice has significant advantages over our current system, addresses lots of issues I see in our system, and is extremely compatible with our legal frameworks.</description>
@@ -63,7 +63,7 @@ Researching other voting methods - Ranked Choice has significant advantages over
       <title>Explore Outdoors</title>
       <link>https://notmet.net/explore_outdoors/</link>
       <pubDate>Sun, 09 Jun 2019 16:25:58 -0400</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/explore_outdoors/</guid>
       <description>Explore Outdoors was a free layer for the Android and iPhone augmented reality app &amp;ldquo;Layar.&amp;rdquo; It displayed the names of mountains, lakes, parks, streams and a whole bunch of other good stuff. Explore Outdoors was helpful for those times when you&amp;rsquo;re sitting on top of a mountain and you wonder about the names of other nearby mountains. There&amp;rsquo;s an example screenshot of it to the right.
 Unfortunately, the Layar app was discontinued, and therefore this layer no longer works.</description>
@@ -73,7 +73,7 @@ Unfortunately, the Layar app was discontinued, and therefore this layer no longe
       <title>Teach Geography</title>
       <link>https://notmet.net/teach_geography/</link>
       <pubDate>Sun, 09 Jun 2019 18:04:08 -0400</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/teach_geography/</guid>
       <description>Teach Geography is intended to be a teacher&amp;rsquo;s aid for elementary school students. It occurred to me that a lot of adults aren&amp;rsquo;t very knowledgable about the locations of today&amp;rsquo;s news. When the news discusses Iran in relation to Iraq and Afghanistan, it&amp;rsquo;s helpful to understand that they&amp;rsquo;re right next to each other, and share a huge swath of border. I realized that I&amp;rsquo;d have a much better knowledge of global geography if I had started at a young age.</description>
     </item>
@@ -82,7 +82,7 @@ Unfortunately, the Layar app was discontinued, and therefore this layer no longe
       <title>CS Server Maps</title>
       <link>https://notmet.net/cs_server_maps/</link>
       <pubDate>Sun, 09 Jun 2019 18:04:02 -0400</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/cs_server_maps/</guid>
       <description>Unzip these in the appropriate Counter-Strike folder, or in Counter-Strike&amp;rsquo;s maps folder, as necessary.
 The Global Offensive map downloads are compressed with 7-Zip because they were too big otherwise. You&amp;rsquo;ll need to download 7-zip to uncompress them.
@@ -93,7 +93,7 @@ Counter-Strike: GO Maps  Version 3 of P&amp;rsquo;s de_museum port - 30 Jun 2013
       <title>Front Porch</title>
       <link>https://notmet.net/front_porch/</link>
       <pubDate>Sun, 09 Jun 2019 16:25:58 -0400</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/front_porch/</guid>
       <description>Front Porchis an open source Python project which sets up a simple file upload and download server. The client is your webbrowser. FrontPorch uses WebSockets to perform file uploads, and thus gets around several issues with current web-based upload options. It implements its own very basic webserver instead of using Python&amp;rsquo;s built in server. Check it out at GitHub.</description>
     </item>
@@ -102,7 +102,7 @@ Counter-Strike: GO Maps  Version 3 of P&amp;rsquo;s de_museum port - 30 Jun 2013
       <title>Sarah&#39;s Webpage</title>
       <link>https://notmet.net/sarahs_webpage/</link>
       <pubDate>Fri, 31 Jan 2020 17:32:48 -0700</pubDate>
-      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <author>kc0bfv@notmet.net (Karl A Sickendick)</author>
       <guid>https://notmet.net/sarahs_webpage/</guid>
       <description></description>
     </item>
