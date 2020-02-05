@@ -13,10 +13,8 @@
 	ExpiresDefault "now plus 1 years"
 </IfModule>
 
-<IfModule mod_speling.c>
-	CheckSpelling on
-</IfModule>
-
 Options -Indexes
 ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
 Redirect 301 /downloads https://static.notmet.net/
+RedirectMatch 404 ^/.git/.*$
