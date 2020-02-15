@@ -28,7 +28,7 @@ Unfortunately, the Layar app was discontinued, and therefore this layer no longe
 <meta name="referrer" content="origin-when-cross-origin">
 
 
-<meta name="generator" content="Hugo 0.64.0" />
+<meta name="generator" content="Hugo 0.64.1" />
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -65,14 +65,6 @@ if (!doNotTrack) {
 </noscript>
 
 <script>
-    function toggleDisplay( elementID ) {
-        elem = document.getElementById(elementID);
-        if( elem.style.display == "none" ) {
-            elem.style.display = "block";
-        } else if( elem.style.display == "block" ) {
-            elem.style.display = "none";
-        }
-    }
     
     function randomHeaderImg() {
         let images = ["https://notmet.net/img/header01.jpg","https://notmet.net/img/header02.jpg","https://notmet.net/img/header03.jpg","https://notmet.net/img/header04.jpg"];
@@ -134,10 +126,9 @@ if (!doNotTrack) {
 <p>I&rsquo;d like to rebuild this as a standalone app, with a built-in places database, so no data connection is required.</p>
 <p>Click, tap or use your phone&rsquo;s QR-code reader to try it out:</p>
 <p><a href="http://m.layar.com/open/exploreoutdoors"><img src="/img/eoqrcode.png" alt="A QR-code which will link your phone to the explore outdoors layer."></a></p>
-<a href="javascript:toggleDisplay('sourceslist');">Image sources:</a>
-
-<!-- raw HTML omitted -->
-<ul>
+<details>
+    <summary>Image sources:</summary>
+    <ul>
 <li><a href="http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-earth.html">Earth</a></li>
 <li><a href="http://en.wikipedia.org/wiki/Siniolchu">Summit</a></li>
 <li><a href="http://education.usgs.gov/schoolyard/RockDescription.html">Stream</a></li>
@@ -151,7 +142,8 @@ if (!doNotTrack) {
 <li><a href="http://hvo.wr.usgs.gov/kilauea/update/archive/2008/2008_Jan.html">Lava</a></li>
 <li><a href="http://visitmt.com/history/Montana_the_Magazine_of_Western_History/Winter02/yellowstone.htm">Pillar</a></li>
 </ul>
-<!-- raw HTML omitted -->
+</details>
+
 
     </div>
 
