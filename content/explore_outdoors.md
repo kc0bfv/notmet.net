@@ -20,9 +20,7 @@ Click, tap or use your phone's QR-code reader to try it out:
 
 [![A QR-code which will link your phone to the explore outdoors layer.](/img/eoqrcode.png)](http://m.layar.com/open/exploreoutdoors)
 
-{{< dropdown/link togglename="sourceslist" linktext="Image sources:" >}}
-{{% dropdown/content togglename="sourceslist" %}}
-
+{{< dropdown summary="Image sources:" >}}
 * [Earth](http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-earth.html)
 * [Summit](http://en.wikipedia.org/wiki/Siniolchu)
 * [Stream](http://education.usgs.gov/schoolyard/RockDescription.html)
@@ -35,5 +33,4 @@ Click, tap or use your phone's QR-code reader to try it out:
 * [Cave](http://sbsc.wr.usgs.gov/cprs/research/projects/caves/wildlife.asp)
 * [Lava](http://hvo.wr.usgs.gov/kilauea/update/archive/2008/2008_Jan.html)
 * [Pillar](http://visitmt.com/history/Montana_the_Magazine_of_Western_History/Winter02/yellowstone.htm)
-
-{{% /dropdown/content %}}
+{{< /dropdown >}}
