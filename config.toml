@@ -8,7 +8,17 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
     favicon = "favicon.ico"
     description = "The homepage for kc0bfv@notmet.net and his wacky projects."
-    images = ["/img/header01.jpg", "/img/header02.jpg", "/img/header03.jpg", "/img/header04.jpg"]
+    images = [
+        "/img/header01.jpg",
+        "/img/header02.jpg",
+        "/img/header03.jpg",
+        "/img/header04.jpg",
+        "/img/header05.jpg",
+        "/img/header06.jpg",
+        "/img/header07.jpg",
+        "/img/header08.jpg",
+        ]
+    headername = "notmetdotnet"
     #msvalidate = ""
     #googlesiteverification = ""
 
