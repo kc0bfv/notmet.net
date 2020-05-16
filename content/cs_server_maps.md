@@ -5,7 +5,7 @@ draft: false
 buttonimage: "/img/hlbutton.jpg"
 images: ["/img/cs_downloads.jpg"]
 imagealt: "Screenshot from Counter Strike"
-weight: 8
+weight: 9
 ---
 
 Unzip these in the appropriate Counter-Strike folder, or in Counter-Strike's maps folder, as necessary.

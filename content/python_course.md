@@ -5,7 +5,7 @@ buttonimage: "/img/pycbutton.png"
 images: ["/img/pycside01.png", "/img/pycside02.png"]
 imagealt: "Python Course"
 draft: false
-weight: 4
+weight: 5
 ---
 
 A few years ago I had the pleasure of teaching a Python Course for programmers - folks who already knew some programming language, and maybe even a little Python.  We worked through the syntax quickly, and got on to advanced topics and things they'd need in their very specific day jobs.  This was a blast for me - I enjoy teaching folks things, and I enjoy Python, so everything about this was fun.  I was invited back a second year, and again the students and I had a great time.

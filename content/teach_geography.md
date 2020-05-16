@@ -5,7 +5,7 @@ draft: false
 buttonimage: "/img/tgbutton.jpg"
 images: ["/img/teachgeography01.jpg"]
 imagealt: "Teach Geography Screenshot"
-weight: 7
+weight: 8
 ---
 
 [Teach Geography](http://notmet.net/teachgeography/) is intended to be a teacher's aid for elementary school students.  It occurred to me that a lot of adults aren't very knowledgable about the locations of today's news.  When the news discusses Iran in relation to Iraq and Afghanistan, it's helpful to understand that they're right next to each other, and share a huge swath of border.  I realized that I'd have a much better knowledge of global geography if I had started at a young age.

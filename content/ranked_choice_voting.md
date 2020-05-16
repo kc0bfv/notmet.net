@@ -5,7 +5,7 @@ buttonimage: "/img/rcvbutton.png"
 images: ["/img/rcvside01.png", "/img/rcvside02.png"]
 imagealt: "Ranked Choice Restaurants Screenshot"
 draft: false
-weight: 5
+weight: 6
 ---
 
 I became interested in Ranked Choice Voting several years ago when I realized the most common US voting systems were really underwhelming.  I see this most clearly in elections that have several candidates, and I hear it most clearly when folks talk about how they cannot vote for the person they're most interested in due to the spoiler effect.

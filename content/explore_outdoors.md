@@ -5,7 +5,7 @@ buttonimage: "/img/eobutton.jpg"
 images: ["/img/exploreoutdoors01.jpg", "/img/exploreoutdoors02.jpg", "/img/exploreoutdoors03.jpg", "/img/exploreoutdoors04.jpg"]
 imagealt: "Explore Outdoors Screenshot"
 draft: false
-weight: 6
+weight: 7
 ---
 
 Explore Outdoors was a free layer for the Android and iPhone augmented reality app "Layar."  It displayed the names of mountains, lakes, parks, streams and a whole bunch of other good stuff.  Explore Outdoors was helpful for those times when you're sitting on top of a mountain and you wonder about the names of other nearby mountains.  There's an example screenshot of it to the right.
