@@ -2,24 +2,25 @@
 <html lang="en-us">
     <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>notmet.net - Ranked Choice Voting</title>
+<title>notmet.net - Relationship Graph</title>
 <meta name="description" content="The homepage for kc0bfv@notmet.net and his wacky projects.">
 <meta name="author" content="Karl Sickendick">
-<link rel="icon" href="/favicon.ico"><meta property="og:title" content="Ranked Choice Voting" />
-<meta property="og:description" content="I became interested in Ranked Choice Voting several years ago when I realized the most common US voting systems were really underwhelming. I see this most clearly in elections that have several candidates, and I hear it most clearly when folks talk about how they cannot vote for the person they&rsquo;re most interested in due to the spoiler effect.
-Researching other voting methods - Ranked Choice has significant advantages over our current system, addresses lots of issues I see in our system, and is extremely compatible with our legal frameworks." />
+<link rel="icon" href="/favicon.ico"><meta property="og:title" content="Relationship Graph" />
+<meta property="og:description" content="Relationship Graph is a graph entry and presentation tool. It can be used to enter data for, and display, any directed graph you can imagine. I wrote this so I could keep track of work projects, topics, teams, people, interested parties, and the relationships between them all - graphs were on the mind and it struck me as a simple way to represent all this.
+It can be used for much more though." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notmet.net/ranked_choice_voting/" />
-<meta property="og:image" content="https://notmet.net/img/rcvside01.png" />
-<meta property="og:image" content="https://notmet.net/img/rcvside02.png" />
-<meta property="article:published_time" content="2020-01-04T00:00:00-08:00" />
-<meta property="article:modified_time" content="2020-01-04T00:00:00-08:00" />
+<meta property="og:url" content="https://notmet.net/relationship_graph/" />
+<meta property="og:image" content="https://notmet.net/rlgside01.png" />
+<meta property="og:image" content="https://notmet.net/rlgside02.png" />
+<meta property="og:image" content="https://notmet.net/rlgside03.png" />
+<meta property="article:published_time" content="2020-05-16T16:19:08-06:00" />
+<meta property="article:modified_time" content="2020-05-16T16:19:08-06:00" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://notmet.net/img/rcvside01.png"/>
+<meta name="twitter:image" content="https://notmet.net/rlgside01.png"/>
 
-<meta name="twitter:title" content="Ranked Choice Voting"/>
-<meta name="twitter:description" content="I became interested in Ranked Choice Voting several years ago when I realized the most common US voting systems were really underwhelming. I see this most clearly in elections that have several candidates, and I hear it most clearly when folks talk about how they cannot vote for the person they&rsquo;re most interested in due to the spoiler effect.
-Researching other voting methods - Ranked Choice has significant advantages over our current system, addresses lots of issues I see in our system, and is extremely compatible with our legal frameworks."/>
+<meta name="twitter:title" content="Relationship Graph"/>
+<meta name="twitter:description" content="Relationship Graph is a graph entry and presentation tool. It can be used to enter data for, and display, any directed graph you can imagine. I wrote this so I could keep track of work projects, topics, teams, people, interested parties, and the relationships between them all - graphs were on the mind and it struck me as a simple way to represent all this.
+It can be used for much more though."/>
 
 
 <meta name="robots" content="index,follow">
@@ -58,7 +59,7 @@ if (!doNotTrack) {
         
         
             #sideimage {
-                background-image: url(https://notmet.net/img/rcvside01.png);
+                background-image: url(https://notmet.net/rlgside01.png);
                 background-size: cover;
             }
         
@@ -87,7 +88,7 @@ if (!doNotTrack) {
     
     
     function randomSideImg() {
-        let images = ["https://notmet.net/img/rcvside01.png","https://notmet.net/img/rcvside02.png"];
+        let images = ["https://notmet.net/rlgside01.png","https://notmet.net/rlgside02.png","https://notmet.net/rlgside03.png"];
         let img_ind = Math.ceil(Math.random() * images.length) - 1;
         let sel_url = images[img_ind]
         let img = new Image();
@@ -117,18 +118,27 @@ if (!doNotTrack) {
                             <main class="row">
     <div class="col-12 col-sm-5">
         
-            <img id="sideimage" class="morerounded" src="/img/side_image_template.png" alt="Ranked Choice Restaurants Screenshot">
+            <img id="sideimage" class="morerounded" src="/img/side_image_template.png" alt="An example graph">
         
     </div>
     <div class="col-12 col-sm-7">
-        <p>I became interested in Ranked Choice Voting several years ago when I realized the most common US voting systems were really underwhelming.  I see this most clearly in elections that have several candidates, and I hear it most clearly when folks talk about how they cannot vote for the person they&rsquo;re most interested in due to the spoiler effect.</p>
-<p>Researching other voting methods - Ranked Choice has significant advantages over our current system, addresses lots of issues I see in our system, and is extremely compatible with our legal frameworks.  So, I started to try to advocate for it.</p>
-<p>Ranked Choice Restaurants is a webapp I created to show folks how easy Ranked Choice Voting (RCV) is.  Apparently, a common concern and complaint of RCV is that it&rsquo;s too complicated.  I&rsquo;ve seen that it can be made complicated, but at its core you&rsquo;re simply ranking your preferences, just as you might when someone asks you your favorite coffee shops in DC.  I wanted this app to be that easy to use.</p>
-<p>Ranked Choice Restaurants works great on mobile, has a simple easily-styled design, and walks people through voting.  I user-tested it twice, fixing the problems people reported the first time (no significant problems reported the second time&hellip;).</p>
-<p>Then I tried to get three newspapers to use this app for their annual local &ldquo;Best-Of&rdquo; competitions.  I targeted papers in my area, contacted their feature reps directly by phone and email, and got little call-back.  Unfortunately I just didn&rsquo;t have time to stand on folks&rsquo; desks, and then I had to move, and then I didn&rsquo;t have much more time to work on this.</p>
-<p>The demo is available over at <a href="https://vote.notmet.net/">https://vote.notmet.net/</a>, and the source code is at <a href="https://github.com/kc0bfv/RankedChoiceRestaurants">GitHub</a>.  Please let me know if you&rsquo;re interested in using this, as I&rsquo;d be happy to talk you through customization.  The demo deployment is on shared server resources, so a dedicated deployment would be much quicker than the demo.</p>
-<p>Also - I curate current events around Ranked Choice Voting (RCV) and post them to the <a href="https://wt.social/wt/ranked-choice-voting-in-the-us">WT-Social US RCV Subwiki</a> and <a href="https://www.facebook.com/rankedchoice/">the-social-network-who-must-not-be-named</a>.</p>
-<p>Hey - if you&rsquo;re interested in a social network that&rsquo;s oriented more around news instead of commercializing its users, <a href="https://wt.social/gi/karl-sickendick/webpage-joiners/fg8m">use this link to sign up on WT-Social</a>.</p>
+        <p><a href="https://relgraph.notmet.net/">Relationship Graph</a> is a graph entry and presentation tool.  It can be used to enter data for, and display, any directed graph you can imagine.  I wrote this so I could keep track of work projects, topics, teams, people, interested parties, and the relationships between them all - graphs were on the mind and it struck me as a simple way to represent all this.</p>
+<p>It can be used for much more though.  The descriptive website gives several use case examples.</p>
+<p>Design requirements were:</p>
+<ul>
+<li>provide a modifiable data schema, that translates into input form fields</li>
+<li>basic usage and graph viewing must be simple</li>
+<li>store data in an easy to understand, parse, and export way</li>
+<li>send no data outside the user&rsquo;s browser, so the tool can be trusted with sensitive data</li>
+<li>can be used on any modern computer (this tool requires only a modern browser)</li>
+<li>tool can be transferred onto and used in &ldquo;air-gapped&rdquo; restrictive environments</li>
+</ul>
+<p>Links:</p>
+<ul>
+<li><a href="https://relgraph.notmet.net/">Relationship Graph</a></li>
+<li><a href="https://github.com/kc0bfv/relationship_graph">Source Code</a></li>
+<li><a href="https://relgraph.notmet.net/">Descriptive/Promotional Site</a></li>
+</ul>
 
     </div>
 
@@ -139,10 +149,10 @@ if (!doNotTrack) {
             <li><a href="https://notmet.net/">Main</a></li>
             <li><a href="https://sarahandkarl.sickendick.com/">Wedding &amp; Life Photos</a></li>
             <li><a href="https://blog.notmet.net/">Blog</a></li>
-            <li><a href="https://notmet.net/relationship_graph/">Relationship Graph</a></li>
+            <li>Relationship Graph</li>
             <li><a href="https://notmet.net/pcode_emulation/">PCode Emulation</a></li>
             <li><a href="https://notmet.net/python_course/">Python Course</a></li>
-            <li>Ranked Choice Voting</li>
+            <li><a href="https://notmet.net/ranked_choice_voting/">Ranked Choice Voting</a></li>
             <li><a href="https://notmet.net/explore_outdoors/">Explore Outdoors</a></li>
             <li><a href="https://notmet.net/teach_geography/">Teach Geography</a></li>
             <li><a href="https://notmet.net/cs_server_maps/">CS Server Maps</a></li>

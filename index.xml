@@ -32,6 +32,16 @@
     </item>
     
     <item>
+      <title>Relationship Graph</title>
+      <link>https://notmet.net/relationship_graph/</link>
+      <pubDate>Sat, 16 May 2020 16:19:08 -0600</pubDate>
+      <author>kc0bfv@notmet.net (Karl Sickendick)</author>
+      <guid>https://notmet.net/relationship_graph/</guid>
+      <description>Relationship Graph is a graph entry and presentation tool. It can be used to enter data for, and display, any directed graph you can imagine. I wrote this so I could keep track of work projects, topics, teams, people, interested parties, and the relationships between them all - graphs were on the mind and it struck me as a simple way to represent all this.
+It can be used for much more though.</description>
+    </item>
+    
+    <item>
       <title>PCode Emulation</title>
       <link>https://notmet.net/pcode_emulation/</link>
       <pubDate>Sun, 09 Jun 2019 16:25:58 -0400</pubDate>
