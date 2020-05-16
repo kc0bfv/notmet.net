@@ -23,6 +23,6 @@ Design requirements were:
 
 Links:
 
-- [Relationship Graph](https://relgraph.notmet.net/)
+- [Relationship Graph - Tool](https://kc0bfv.github.io/relationship_graph/)
 - [Source Code](https://github.com/kc0bfv/relationship_graph)
 - [Descriptive/Promotional Site](https://relgraph.notmet.net/)
