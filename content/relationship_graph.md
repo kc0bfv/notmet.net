@@ -2,8 +2,8 @@
 title: "Relationship Graph"
 date: 2020-05-16T16:19:08-06:00
 draft: false
-buttonimage: "rlgbutton.png"
-images: ["rlgside01.png", "rlgside02.png", "rlgside03.png"]
+buttonimage: "img/rlgbutton.png"
+images: ["img/rlgside01.png", "img/rlgside02.png", "img/rlgside03.png"]
 imagealt: "An example graph"
 weight: 3
 ---
