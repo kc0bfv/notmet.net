@@ -1,0 +1,19 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "Ticky Tacky Dark"
+theme = "ticky_tacky_dark"
+#googleAnalytics = ""
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableEmoji = true
+
+[params]
+    favicon = "favicon.ico"
+    description = "The demonstration page for the Hugo Ticky Tacky Dark theme."
+    images = ["img/header01.jpg", "img/header02.jpg"]
+    headername = "tickytackydark"
+    #msvalidate = ""
+    #googlesiteverification = ""
+
+[Author]
+    name = "Karl Sickendick"
+    email = "kc0bfv@gmail.com"
