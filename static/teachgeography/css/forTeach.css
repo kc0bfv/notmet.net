@@ -1,6 +1,0 @@
-#zoomImg { height: 297px; }
-#weatherbar { height:200px; }
-div .cityWeather { float:left; height:100%; width:150px; margin:10px; background-color:blue; text-align:center; padding:5px; }
-.cityName { font-weight:bold; font-size:1.5em; }
-.cityCondition { font-weight:bold; font-size:1.2em; }
-.cityTemp { font-weight:normal; font-size:1.2em; }
