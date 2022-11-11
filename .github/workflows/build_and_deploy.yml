@@ -10,7 +10,9 @@ jobs:
             - name: Install Hugo
               run: sudo snap install hugo
             - name: Checkout Repo
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
+              with:
+                submodules: true
             - name: Build Pages
               run: hugo
             - name: Configure AWS Creds
