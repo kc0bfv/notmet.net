@@ -1,6 +1,6 @@
 ---
 title: "Stories"
-date: 2024-03-03T00:00:00-08:00
+date: 2024-03-03T00:00:00-05:00
 buttonimage: "/img/storiesbutton.png"
 images: ["/img/storiesside00.png", "/img/storiesside01.png"]
 imagealt: "Stories"
