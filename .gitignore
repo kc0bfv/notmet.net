@@ -1,2 +1,3 @@
 *.bz2
 *.swp
+.hugo_build.lock
