@@ -1,0 +1,93 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>{{ .Site.Title }}{{ with .Params.title }} - {{ . }}{{ end }}</title>
+{{ $description := $.Param "description" }}
+{{- with $description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ $author := .Params.author.name | default .Site.Author.name }}
+{{- with $author }}<meta name="author" content="{{ . }}">{{ end }}
+<link rel="icon" href="{{ .Site.Params.favicon | relURL }}">
+{{- template "_internal/opengraph.html" . }}
+{{- template "_internal/twitter_cards.html" . }}
+{{ with .Params.actualurl -}}
+<meta http-equiv="refresh" content="0;URL='{{ . | relURL }}'" />
+{{- end }}
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="theme-color" content="black">
+
+{{ with .Site.Params.googlesiteverification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+
+{{ with .Site.Params.msvalidate }}<meta name="msvalidate.01" content="{{ . }}">{{ end }}
+
+{{ hugo.Generator }}
+
+{{ with .OutputFormats.Get "RSS" }}
+<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+<link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{ end }}
+
+{{- $bootstrap_css := resources.Get "css/bootstrap.min.css" -}}
+{{- $open_sans_css := resources.Get "css/open-sans.css" -}}
+{{- $ubuntu_css := resources.Get "css/ubuntu.css" -}}
+{{- $main_css := resources.Get "css/ticky_tacky_dark.css" -}}
+{{- $user_css := resources.Get "css/user.css" -}}
+{{- $custom_css := slice $bootstrap_css $open_sans_css $ubuntu_css $main_css $user_css | resources.Concat "css/custom.css" | resources.Minify | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ $custom_css.RelPermalink }}" integrity="{{ $custom_css.Data.Integrity }}"/>
+
+<script src="https://analytics.r53.notmet.net/cdn/client-script.js" site="notmet.net" attr-tracking="true"></script>
+
+<noscript>
+    <style>
+        {{ with .Site.Params.images }}
+            #headerimg {
+                background-image: url({{ index . 0 | safeURL | absURL }});
+                background-size: cover;
+            }
+        {{ end }}
+        {{ with .Params.images }}
+            #sideimage {
+                background-image: url({{ index . 0 | safeURL | absURL }});
+                background-size: cover;
+            }
+        {{ end }}
+    </style>
+</noscript>
+
+<script>
+    function randomImg(dest_elem, images) {
+        const img_ind = Math.ceil(Math.random() * images.length) - 1;
+        const sel_url = images[img_ind]
+        const img = new Image();
+        img.onload = function() {
+            function set_img() {
+                const element = document.getElementById(dest_elem);
+                element.src = sel_url;
+            }
+            if( document.readyState != "loading" ) { set_img() }
+            else { window.addEventListener("load", set_img); }
+        }
+        img.src = sel_url;
+    }
+    {{ with .Site.Params.images }}
+        randomImg(
+            dest_elem = "headerimg",
+            images = [
+                {{- $last_elem := sub (len .) 1 -}}
+                {{ range $index, $component := . -}}
+                    {{ . | absURL }}{{ if lt $index $last_elem }},{{ end }}
+                {{- end -}}
+            ]
+        );
+    {{ end }}
+    {{ with .Params.images }}
+        randomImg(
+            dest_elem = "sideimage",
+            images = [
+                {{- $last_elem := sub (len .) 1 -}}
+                {{ range $index, $component := . -}}
+                    {{ . | absURL }}{{ if lt $index $last_elem }},{{ end }}
+                {{- end -}}
+            ]
+        );
+    {{ end }}
+</script>

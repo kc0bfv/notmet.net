@@ -2,8 +2,7 @@ baseURL = "https://notmet.net/"
 languageCode = "en-us"
 title = "notmet.net"
 theme = "ticky_tacky_dark"
-googleAnalytics = "UA-42117518-1"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [params]
     favicon = "favicon.ico"
@@ -22,9 +21,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #msvalidate = ""
     #googlesiteverification = ""
 
-[Author]
-    name = "Karl Sickendick"
-    email = "kc0bfv@notmet.net"
-    [Author.Social]
-        twitter = "kc0bfv"
-        facebook = "karl.sickendick"
+    [params.author]
+        name = "Karl Sickendick"
+        email = "kc0bfv@notmet.net"
